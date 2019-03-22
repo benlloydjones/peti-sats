@@ -1,6 +1,10 @@
 {
   "name": "peti-stats",
   "version": "1.0.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/benlloydjones/peti-sats"
+  },
   "description": "a stats aggregator for UK petitions",
   "main": "./lib/index.js",
   "scripts": {
