@@ -1,0 +1,29 @@
+{
+  "name": "peti-stats",
+  "version": "1.0.0",
+  "description": "a stats aggregator for UK petitions",
+  "main": "./lib/index.js",
+  "scripts": {
+    "flow": "flow",
+    "build": "flow-remove-types src/ -d lib/",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "government",
+    "stats",
+    "UK"
+  ],
+  "author": "Ben Jones",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "flow-bin": "^0.95.1",
+    "flow-remove-types": "^1.2.3",
+    "prettier": "1.16.4"
+  }
+}
