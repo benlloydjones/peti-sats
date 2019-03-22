@@ -21,7 +21,8 @@
   "author": "Ben Jones",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "koa-router": "7.4.0"
   },
   "devDependencies": {
     "eslint": "^5.15.3",
