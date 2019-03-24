@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "github",
-    "url": "https://github.com/benlloydjones/peti-sats"
+    "url": "https://github.com/benlloydjones/peti-stats"
   },
   "description": "a stats aggregator for UK petitions",
   "main": "./lib/index.js",
@@ -21,6 +21,7 @@
   "author": "Ben Jones",
   "license": "MIT",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "koa": "^2.7.0",
     "koa-router": "7.4.0"
   },
