@@ -4,7 +4,7 @@ const {
   startFetchingPetitions,
   getPetitionById,
   getAllPetitions
-} = require("../lib/getPetitionStats");
+} = require("../controlers/petitions");
 
 const petitions = new Router();
 
