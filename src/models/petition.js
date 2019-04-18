@@ -1,14 +1,16 @@
-const mongoose = require("mongoose");
-const { Schema } = mongoose;
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
 
 const petitionSchema = new Schema({
   publicId: { type: String, required: true },
   signatures: [
     {
-      time: Date,
-      signatureCount: Number
-    }
-  ]
+      timeStamp: Date,
+      signatureCount: Number,
+    },
+  ],
 });
 
-module.exports = petitionSchema;
+const Petition = model('Petition', petitionSchema);
+
+module.exports = Petition;
